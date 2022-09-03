@@ -213,13 +213,3 @@ public:
         tmp->next = tmp->next->next;
     }
 };
-
-int main()
-{
-    My_forward_list obj1(453);
-    obj1.push_front(53);
-    obj1.push_front(7);
-    std::cout << obj1 << std::endl;
-    obj1.remove(89);
-    std::cout << obj1 << std::endl;
-}
